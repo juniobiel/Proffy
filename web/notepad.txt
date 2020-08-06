@@ -1,0 +1,14 @@
+    
+///------ SOBRE AS PRIMEIRAS ADAPTAÇÕES RESPONSIVAS ------\\\
+
+    A metodologia de mobile first, visa a estruturação primordialmente da interface mobile e depois, utiliza-se das adaptações com o query
+medias para fazer as transformações de interfaces para a web.
+
+    O display grid, permite que se faça a seguinte mutação: Coloca-se num quadriculado e distribui toda a estruturação já feita
+anteriormente na versão mobile, porém agora, respeitando os limites do grid. Deve-se levar em conta as proporções em "rem"
+para que se possa fazer as adequações corretas, assinalando cada seção da aplicação de forma à ser destinada às seções do grid.
+
+///------ SOBRE AS PROPS ------\\\
+
+    As props são as propriedades que podem ser enviadas para determinado componente
+fazendo com que que estas sejam utilizadas por ele de acordo com a sua necessidade.
