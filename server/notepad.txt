@@ -1,0 +1,10 @@
+/// ---- Iniciando o projeto ---- \\\
+É preciso adicionar o template de typescript utilizando yarn add typescript -D, para ser um dependencia do desenvolvimento
+O arquivo de configuração do typescript é igualmente importante, yarn tsc --init, que dá início ao arquivo.
+es2017, no typescript, faz com que o node consiga interpretar e compilar as informações da aplicação.
+
+para acrescentar no package.json para configurações iniciais do ambiente
+
+ "scripts": {
+    "start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
