@@ -8,3 +8,20 @@ para acrescentar no package.json para configurações iniciais do ambiente
  "scripts": {
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
+
+Todo site possui porta padrão 80
+
+Métodos
+    GET: Buscar ou listar uma informação
+    POST: Criar alguma nova informação
+    PUT: Atualizar uma informação existente
+    DELETE: Deletar uma informação existente
+
+Requisições
+    Request Body: O corpo da requisição é dado por Request Body, os dados são mantidos dentro deste corpo (request.body)
+    Route Params: Identificar qual recurso atualizar ou deletar (request.params)
+    Query Params: Paginação, filtros, ordenação (request.query)
+
+Migrations controlam a versão do banco de dados
+
+Método CASCADE deleta todas em cascata
